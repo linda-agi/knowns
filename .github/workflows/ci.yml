@@ -24,7 +24,7 @@ jobs:
     name: Lint & Test (Node ${{ matrix.node-version }})
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
@@ -68,7 +68,7 @@ jobs:
     name: E2E (${{ matrix.os }}, Node ${{ matrix.node-version }})
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
