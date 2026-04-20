@@ -38,7 +38,7 @@ jobs:
       # Step 2: Build npm dist (Node.js + pnpm)
       # ============================================
       - name: Setup pnpm
-        uses: pnpm/action-setup@v4
+        uses: pnpm/action-setup@v6
         with:
           version: 9
 
